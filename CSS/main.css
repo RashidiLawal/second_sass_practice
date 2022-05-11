@@ -1,0 +1,29 @@
+body {
+  background-color: darkgoldenrod; }
+
+.spiderman {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out; }
+  .spiderman-container:hover .spiderman {
+    transform: rotate(180deg); }
+  .spiderman-container {
+    background-color: #dbb; }
+  .spiderman::before {
+    display: block;
+    content: url("/work2/hand-drawn-spider-illustration-vector-260nw-223772182.jpg"); }
+  .spiderman img {
+    transition: transform .8s ease-in-out; }
+    .spiderman img:hover {
+      transform: rotate(360deg); }
+  .spiderman .description {
+    color: darkred;
+    text-align: center;
+    margin-top: 1rem; }
+    .spiderman .description .header {
+      font-size: 2rem; }
+  .spiderman .description-link {
+    text-decoration: none; }
+    .spiderman .description-link::after {
+      content: url("/work2/hand-drawn-spider-illustration-vector-260nw-223772182.jpg");
+      display: inline-block;
+      vertical-align: middle; }
